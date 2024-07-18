@@ -1,0 +1,80 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html lang="en">
+<head>
+
+  <meta http-equiv="content-language" content="en">
+  <meta http-equiv="Content-type" content="text/html;charset=UTF-8">
+  <title>Tjaldur Software Governance Solutions</title>
+  <link rel="stylesheet" href="skin/style.css" type="text/css">
+
+  <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/prototype/1.6.1.0/prototype.js"></script>
+  <script type="text/javascript">
+document.observe('dom:loaded', function()
+{
+    $$('form#contact').each(function(f)
+    {
+        f.observe('submit', function(e)
+        {
+            var elm = e.element();
+            if (elm.nodeName.toLowerCase() != 'form')
+              elm = elm.up('form');
+            elm.verify.name = 'nospam';
+        });
+    });
+});
+  </script>
+
+</head>
+<body>
+  <div id="page">
+    <div id="workarea">
+<h1></h1>
+
+
+<div class="authblock">
+  <h2>Contact</h2>
+  <p>If you have any questions, contact <a href="mailto:%69%6e%66%6f@%74%6a%61%6c%64%75%72.%6e%6c">&#x69;&#x6e;&#x66;&#x6f;&#x40;&#x74;&#x6a;&#x61;&#x6c;&#x64;&#x75;&#x72;&#x2e;&#x6e;&#x6c;</a>.</p>
+</div>
+
+
+      <div class="clearall"></div>
+    </div>
+    <div id="header">
+      <h1><a href="index.html">&nbsp;</a></h1>
+      <ul>
+        <li><a href="index.html">home</a></li>
+        <li><a href="content/show/news.html">news</a></li>
+        <li><a href="content/show/services.html">services</a></li>
+        <li><a href="content/show/projects.html">projects</a></li>
+        <li><a href="content/show/software.html">software</a></li>
+        <li><a href="content/show/research.html">research</a></li>
+        <li><a href="contact.html">contact</a></li>
+        <li><a href="content/show/faq.html">faq</a></li>
+      </ul>
+    </div>
+    <div id="colofon">
+      <ul>
+        <li class="colofoncol">
+                  <li class="colofoncol">
+          <h2>Sitemap</h2>
+          <ul>
+            <li><a href="content/show/about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+                        <li><a href="content/show/faq.html">FAQ</a></li>
+          </ul>
+        </li>
+        <li class="colofoncol">
+          <h2>License</h2>
+          <ul>
+            <li>Unless otherwise specified, all content on this site is</li>
+            <li><a rel="license" href="http://creativecommons.org/licenses/by-nd/3.0/"><img alt="Creative Commons License" src="skin/cc-by-nd.png"></a></li>
+            <li><a rel="license" href="http://creativecommons.org/licenses/by-nd/3.0/">Creative Commons Attribution-No Derivative Works 3.0 Unported License</a>.</li>
+          </ul>
+        </li>
+      </ul>
+      <div class="clearall"></div>
+    </div>
+  </div>
+
+</body>
+</html>

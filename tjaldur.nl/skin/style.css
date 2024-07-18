@@ -1,0 +1,479 @@
+/* color scheme, font styles */
+/* main colors #F24F12 (orange) and #115CF2 */
+
+body {
+/*    background: #FFF url(page-bg.png) 0 0 repeat-x;*/
+}
+a {
+    font-weight: bold;
+    color: #115CF2;
+}
+a:hover {
+    text-decoration: none;
+}
+a:visited {
+    color: #115CF2;
+}
+pre {
+    background: #F8F8F8;
+    color: #000;
+    font-family: Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal, monospace;
+}
+input[type="text"], input[type="password"], textarea {
+    padding: 2px 3px;
+    border: 1px solid #CCC;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+}
+input[type="submit"], input[type="button"], input[type="reset"], button {
+    position: relative;
+    margin-top: 1px;
+    padding: 1px 8px;
+    border: 1px solid #CCC;
+    background: #CCC url(button-bg2.png) 50% 50% repeat-x;
+    color: #616161;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+}
+input[type="submit"]:hover, input[type="button"]:hover, input[type="reset"]:hover, button:hover {
+    opacity: 0.9;
+    filter: alpha(opacity=90);
+}
+div.youtube {
+    display: block;
+    text-align: center;
+}
+#page {
+    color: #616161;
+}
+
+#header {
+/*
+    border: 1px solid #F24F12;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    background: #F24F12;
+*/
+    background: #FFF url(tjaldur-head.png) 0 100% no-repeat;
+}
+#header input[type="text"] {
+    width: 12em;
+}
+#header h1 {
+    padding-left: 10px;
+    line-height: 80px;
+    font-size: 48px;
+    font-weight: bold;
+    font-style: italic;
+    font-family: Constantia, "Liberation Serif", "Lucida Bright", LucidaBright, "DejaVu Serif", "Bitstream Vera Serif", Georgia;
+    color: #FFF;
+}
+#header h1 a {
+    display: block;
+    width: 287px;
+    height: 80px;
+}
+#header h1 span.accent {
+    color: #CCC;
+}
+#header ul {
+    line-height: 150%;
+}
+#header a {
+    text-decoration: none;
+    font-weight: bold;
+    color: #000;
+}
+#header ul li a:hover, #header ul li a.active {
+    color: #666;
+}
+
+#workarea a {
+    font-weight: bold;
+}
+.rightblock {
+    border: 1px solid #CCC;
+    background-color: #F8F8F8;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+}
+.rightblock h2 {
+/*    background: #CCC url(colofon-bg2.png) 0 0 repeat-x;*/
+    color: #616161;
+    font-weight: bold;
+}
+#workarea {
+    color: #333;
+    line-height: 140%;
+}
+#workarea p {
+    margin: 8px 0;
+}
+#workarea h1, #workarea h2, #workarea h3 {
+    margin: 8px 0;
+    font-weight: bold;
+}
+
+#workarea .rightblock a {
+    font-weight: normal;
+}
+#workarea .rightblock p.error {
+    margin-top: 0;
+    color: #D64D57;
+}
+.authblock {
+    border: 1px solid #CCC;
+    background-color: #F8F8F8;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+}
+.authblock h2 {
+    font-weight: bold;
+}
+#workarea .authblock p.error {
+    margin-top: 0;
+    padding: 2px 0;
+    color: #D64D57;
+}
+#workarea .authblock a {
+    font-weight: normal;
+}
+
+#workarea table {
+    margin: 10px 0;
+}
+#workarea th {
+    border: 1px solid #CCC;
+    padding: 2px 10px;
+    background: #CCC url(colofon-bg2.png) 0 0 repeat-x;
+    color: #FFF;
+}
+#workarea td {
+    border: 1px solid #CCC;
+    padding: 2px 10px;
+}
+#workarea .notification {
+    margin: 3px 0;
+    padding: 0 10px 2px 10px;
+    border: 1px solid #F0DCA1;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    background-color: #FFFBC9;
+}
+#workarea img.left {
+    float: left;
+    clear: left;
+    margin: 0 8px 2px 0;
+    border: 1px solid #FFF;
+}
+#workarea img.right {
+    float: right;
+    margin: 0 0 2px 8px;
+    border: 1px solid #FFF;
+}
+
+#colofon {
+    border: 1px solid #616161;
+    background: #000 url(colofon-bg.png) 0 0 repeat-x;
+    color: #CCC;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+}
+#colofon h2 {
+    margin-bottom: 6px;
+    color: #CCC;
+    font-weight: bold;
+}
+#colofon a {
+    color: #FFF;
+    text-decoration: none;
+}
+#colofon a:hover {
+    text-decoration: underline;
+}
+#colofon li.colofoncol {
+    float: left;
+    width: auto;
+    max-width: 200px;
+    margin-right: 80px;
+}
+#colofon #wikicontrol {
+    padding: 0 10px;
+    color: #616161;
+    text-align: right;
+}
+#colofon #wikicontrol a {
+    color: #48677D;
+    text-decoration: underline;
+}
+
+#workarea #search {
+    list-style: none;
+    border-top: 1px dotted #EEE;
+}
+#workarea #search li {
+    list-style: none;
+    border-bottom: 1px dotted #EEE;
+}
+#workarea #search h3 {
+    margin: 2px 0 0 0;
+}
+#workarea #search p {
+    font-size: 90%;
+}
+#workarea #searchform {
+    margin-bottom: 20px;
+}
+
+/* layout properties */
+
+/* more or less sane defaults for popular browsers */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-weight: inherit;
+    font-style: inherit;
+/*    font-family: inherit;*/
+    vertical-align: baseline;
+}
+ul, ul li {
+    list-style: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+caption, th, td {
+    text-align: left;
+    vertical-align: top;
+    font-weight: normal;
+}
+label {
+    display: block;
+}
+body {
+    font-size: 100%;
+}
+pre {
+    white-space: pre;
+    border: 1px solid #CCC;
+    padding: 2px;
+    margin: 4px 0;
+}
+dt {
+    float: left;
+    width: 240px;
+}
+dd {
+    display: block;
+    padding-left: 250px;
+}
+#faq dd {
+    padding-left: 0px;
+}
+
+#page {
+    position: relative;
+    width: 840px;
+    margin: 0 auto;
+    padding-top: 122px;
+    min-height: 100%;
+    font-family: "Segoe UI", Candara, "Bitstream Vera Sans", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+    font-size: 0.8em;
+}
+div.clearall { /* necessary evil */
+    clear: both;
+    float: none;
+}
+/*--- header ---*/
+
+#header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 818px;
+    margin: 0 auto 0 auto;
+    padding: 20px 10px;
+}
+#header h1 {
+    float: left;
+}
+#header h1 a {
+    color: inherit;
+}
+#header form {
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 32px 10px 0 0;
+    font-size: 0.9em;
+}
+#header ul {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    list-style: none;
+    width: 640px;
+    text-align: left;
+}
+#header ul li {
+    display: inline;
+    list-style: none;
+}
+#header ul li a {
+    padding: 0 10px;
+}
+
+/*--- main work area ---*/
+#workarea #rightcol {
+    float: right;
+    width: 33.3%;
+    font-size: 0.9em;
+}
+.rightblock {
+    margin: 10px 0 0 20px;
+    padding-bottom: 10px;
+}
+.rightblock h2 {
+    font-size: 1.1em;
+    padding: 2px 10px;
+    margin-bottom: 10px;
+}
+.rightblock p, .rightblock ul {
+    padding: 2px 10px;
+}
+.rightblock form {
+    padding: 2px 10px;
+    text-align: right;
+}
+.rightblock label {
+    padding: 2px 0;
+}
+.rightblock input[type="text"], .rightblock input[type="password"] {
+    width: 66.6%;
+}
+
+#workarea #leftcol {
+    float: left;
+    width: 66.6%;
+    padding-top: 20px;
+}
+#workarea ul, #workarea #leftcol ul {
+    margin: 0 20px 8px 0;
+}
+#workarea ul li, #workarea #leftcol ul li {
+    list-style-type: disc;
+    list-style-position: inside;
+}
+#workarea ol li {
+    list-style-position: inside;
+}
+#workarea p {
+    margin: 0 20px 8px 0;
+}
+#workarea dt {
+    font-style: italic;
+}
+#workarea h1, #workarea h2, #workarea h3 {
+    margin: 10px 20px 2px 0;
+}
+#workarea h1 {
+    font-size: 130%;
+}
+#workarea h2 {
+    font-size: 120%;
+}
+#workarea h3 {
+    font-size: 110%;
+}
+#rightcol h1, #rightcol h2, #rightcol h3 {
+    margin: 0;
+}
+#rightcol h4 {
+    display: none!important;
+}
+.authblock {
+    width: 520px;
+    margin: 1em auto 1em auto;
+    padding-bottom: 10px;
+}
+.authblock h2 {
+    font-size: 1.1em;
+    padding: 2px 10px;
+    margin-bottom: 10px;
+}
+.authblock p, .authblock ul {
+    padding: 2px 10px;
+}
+.authblock form {
+    padding: 2px 10px;
+    text-align: right;
+}
+.authblock label {
+    padding: 2px 0;
+}
+.authblock input[type="text"], .authblock input[type="password"], .authblock select {
+    width: 60%;
+}
+
+#workarea table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+#pageeditor {
+    display: block;
+    text-align: right;
+}
+#pageeditor label {
+    display: block;
+    padding: 2px 0;
+}
+#pageeditor textarea {
+    display: block;
+    height: 24em;
+    width: 100%;
+    white-space: pre;
+}
+#pageeditor input[type="text"] {
+    width: 85%;
+}
+#pagepreview p, #pagepreview dt, #pagepreview dd {
+    margin-bottom: 8px;
+}
+
+#contact textarea {
+    height: 12em;
+    width: 95%;
+}
+
+/*--- colofon ---*/
+
+#colofon {
+    position: relative;
+    margin: 50px 0 20px 0;
+    padding: 10px;
+    font-size: 0.85em;
+}
+#colofon h2 {
+    font-size: 1.1em;
+}
+#colofon li.colofoncol {
+    float: left;
+    width: auto;
+    margin-right: 60px;
+}
+#colofon #wikicontrol {
+    position: absolute;
+    top: 100%;
+    right: 0;
+}
